@@ -1,8 +1,8 @@
 import numpy as np
 import cv2
-    
+   
 faceCascade = cv2.CascadeClassifier("C:/Users/DEADPOOL/AppData/Local/Programs/Python/Python39/Lib/site-packages/cv2/data/haarcascade_frontalface_default.xml")
-eyeCascade = cv2.CascadeClassifier("C:/Users/DEADPOOL/Desktop/dev_trial/eye.xml") #Directory pf eye.xml
+eyeCascade = cv2.CascadeClassifier("C:/Users/DEADPOOL/Desktop/dev_trial/eye.xml") #Directory of eye.xml
 mouthCascade = cv2.CascadeClassifier("C:/Users/DEADPOOL/Desktop/dev_trial/mouth.xml") #Directory of mouth.xml
 
 #VideCapture has an attribute value 0 which means it will take input directly from the camera
